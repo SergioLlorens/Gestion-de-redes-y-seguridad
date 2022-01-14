@@ -1,0 +1,27 @@
+dependencies: []
+
+galaxy_info:
+  author: BoostedNami
+  description: Installs Nmap; An open source port scanner.
+  company: "BoostedShop SL"
+  license: "Apache 2.0 'The License'"
+  min_ansible_version: 1.7
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Redhat
+    versions:
+    - all
+  - name: CentOS
+    versions:
+    - all
+  galaxy_tags:
+    - nmap
+    - scanner
+    - port
+    - security
+    - infosec

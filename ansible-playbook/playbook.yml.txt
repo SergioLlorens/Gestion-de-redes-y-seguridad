@@ -1,0 +1,16 @@
+---
+- hosts: all
+  become: true
+  vars_files:
+    - vars/default.yml
+    - vars/secrets.yml
+
+  roles:
+    - prerequisites
+    - apache
+    - mysql
+    - ufw
+    - php
+    - clamav
+    - lemon
+    - nmap

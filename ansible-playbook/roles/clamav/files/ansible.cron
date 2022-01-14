@@ -1,0 +1,1 @@
+0 3 * * * root /usr/bin/freshclam ; /usr/bin/clamscan / --recursive=yes -i | mail -s clamav_log_BoostedNami support@boostedshop.com -

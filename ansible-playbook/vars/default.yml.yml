@@ -1,0 +1,7 @@
+---
+mysql_root_password: "vagrant1234"
+app_user: "vagrant"
+http_host: "ansibleDomain"
+http_conf: "ansibleDomain.conf"
+http_port: "80"
+disable_default: true
