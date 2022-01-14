@@ -1,0 +1,12 @@
+#!/usr/bin/expect
+set timeout 20
+spawn ssh manager@10.0.123.1
+
+send_user “Loggeando\r”
+
+expect {
+    “Password:” 
+    send “managerTiendas\r”
+    * {send_user “Error: no recibe petición de password\r”; exit}
+}
+sleep 2
